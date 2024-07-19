@@ -11,7 +11,7 @@ var buildings = {
             "type": "Feature",
             "properties": {
                 "name": "Owusu Ansah Complex",
-                "picture": "\\DCIM\\"
+                "picture": "/DCIM/"
             },
             "geometry": {
                 "type": "MultiPolygon",
@@ -50,7 +50,7 @@ var buildings = {
             "type": "Feature",
             "properties": {
                 "name": "Aboagye Menyeh Complex",
-                "picture": "\\DCIM\\"
+                "picture": "/DCIM/"
             },
             "geometry": {
                 "type": "MultiPolygon",
@@ -136,7 +136,7 @@ var buildings = {
             "type": "Feature",
             "properties": {
                 "name": "Petroleum Building",
-                "picture": "\\DCIM\\daenerys_s6-wallpaper-1920x1080.jpg"
+                "picture": "/DCIM/daenerys_s6-wallpaper-1920x1080.jpg"
             },
             "geometry": {
                 "type": "MultiPolygon",
@@ -164,7 +164,7 @@ var buildings = {
             "type": "Feature",
             "properties": {
                 "name": "Ayim Complex",
-                "picture": "\\DCIM\\"
+                "picture": "/DCIM/"
             },
             "geometry": {
                 "type": "MultiPolygon",
@@ -231,7 +231,7 @@ var buildings = {
             "type": "Feature",
             "properties": {
                 "name": "L. I. Andoh Block",
-                "picture": "\\DCIM\\"
+                "picture": "/DCIM/"
             },
             "geometry": {
                 "type": "MultiPolygon",
@@ -275,7 +275,7 @@ var buildings = {
             "type": "Feature",
             "properties": {
                 "name": "Obesse-Jecty Block",
-                "picture": "\\DCIM\\"
+                "picture": "/DCIM/"
             },
             "geometry": {
                 "type": "MultiPolygon",
@@ -311,7 +311,7 @@ var buildings = {
             "type": "Feature",
             "properties": {
                 "name": "Casely-Hayford Building",
-                "picture": "\\DCIM\\"
+                "picture": "/DCIM/"
             },
             "geometry": {
                 "type": "MultiPolygon",
@@ -370,7 +370,7 @@ var buildings = {
             "type": "Feature",
             "properties": {
                 "name": "New Block",
-                "picture": "\\DCIM\\"
+                "picture": "/DCIM/"
             },
             "geometry": {
                 "type": "MultiPolygon",
@@ -514,7 +514,7 @@ var buildings = {
             "type": "Feature",
             "properties": {
                 "name": null,
-                "picture": "\\DCIM\\"
+                "picture": "/DCIM/"
             },
             "geometry": {
                 "type": "MultiPolygon",
@@ -553,7 +553,7 @@ var buildings = {
             "type": "Feature",
             "properties": {
                 "name": "Business school of graduate",
-                "picture": "\\DCIM\\"
+                "picture": "/DCIM/"
             },
             "geometry": {
                 "type": "MultiPolygon",
@@ -677,7 +677,7 @@ var buildings = {
             "type": "Feature",
             "properties": {
                 "name": null,
-                "picture": "\\DCIM\\"
+                "picture": "/DCIM/"
             },
             "geometry": {
                 "type": "MultiPolygon",
@@ -705,7 +705,7 @@ var buildings = {
             "type": "Feature",
             "properties": {
                 "name": "Tech Central Lab",
-                "picture": "\\DCIM\\"
+                "picture": "/DCIM/"
             },
             "geometry": {
                 "type": "MultiPolygon",
@@ -744,7 +744,7 @@ var buildings = {
             "type": "Feature",
             "properties": {
                 "name": "Engineering Workshop & Laboratory",
-                "picture": "\\DCIM\\"
+                "picture": "/DCIM/"
             },
             "geometry": {
                 "type": "MultiPolygon",
@@ -772,7 +772,7 @@ var buildings = {
             "type": "Feature",
             "properties": {
                 "name": "Center for Settlement Studies",
-                "picture": "\\DCIM\\"
+                "picture": "/DCIM/"
             },
             "geometry": {
                 "type": "MultiPolygon",
@@ -804,7 +804,7 @@ var buildings = {
             "type": "Feature",
             "properties": {
                 "name": "J.G.K Owusu Complex",
-                "picture": "\\DCIM\\"
+                "picture": "/DCIM/"
             },
             "geometry": {
                 "type": "MultiPolygon",
@@ -850,7 +850,7 @@ var buildings = {
             "type": "Feature",
             "properties": {
                 "name": "Kumapley Building",
-                "picture": "\\DCIM\\game_of_thrones_khaleesi-wallpaper-1920x1200.jpg"
+                "picture": "/DCIM/game_of_thrones_khaleesi-wallpaper-1920x1200.jpg"
             },
             "geometry": {
                 "type": "MultiPolygon",
@@ -871,7 +871,7 @@ var buildings = {
             "type": "Feature",
             "properties": {
                 "name": null,
-                "picture": "\\DCIM\\"
+                "picture": "/DCIM/"
             },
             "geometry": {
                 "type": "MultiPolygon",
@@ -898,7 +898,7 @@ var buildings = {
             "type": "Feature",
             "properties": {
                 "name": null,
-                "picture": "\\DCIM\\"
+                "picture": "/DCIM/"
             },
             "geometry": {
                 "type": "MultiPolygon",
@@ -929,7 +929,7 @@ var buildings = {
             "type": "Feature",
             "properties": {
                 "name": null,
-                "picture": "\\DCIM\\"
+                "picture": "/DCIM/"
             },
             "geometry": {
                 "type": "MultiPolygon",
@@ -958,7 +958,7 @@ var buildings = {
             "type": "Feature",
             "properties": {
                 "name": null,
-                "picture": "\\DCIM\\"
+                "picture": "/DCIM/"
             },
             "geometry": {
                 "type": "MultiPolygon",
@@ -979,7 +979,7 @@ var buildings = {
             "type": "Feature",
             "properties": {
                 "name": "Laing Building Complex",
-                "picture": "\\DCIM\\"
+                "picture": "/DCIM/"
             },
             "geometry": {
                 "type": "MultiPolygon",
@@ -1014,7 +1014,7 @@ var buildings = {
             "type": "Feature",
             "properties": {
                 "name": null,
-                "picture": "\\DCIM\\"
+                "picture": "/DCIM/"
             },
             "geometry": {
                 "type": "MultiPolygon",
@@ -1043,7 +1043,7 @@ var buildings = {
             "type": "Feature",
             "properties": {
                 "name": "Bamfo-Kwakye Building",
-                "picture": "\\DCIM\\game_of_thrones_season_8_2019_night_king___vladimir_furdik-wallpaper-1920x1080.jpg"
+                "picture": "/DCIM/game_of_thrones_season_8_2019_night_king___vladimir_furdik-wallpaper-1920x1080.jpg"
             },
             "geometry": {
                 "type": "MultiPolygon",
@@ -1064,7 +1064,7 @@ var buildings = {
             "type": "Feature",
             "properties": {
                 "name": null,
-                "picture": "\\DCIM\\"
+                "picture": "/DCIM/"
             },
             "geometry": {
                 "type": "MultiPolygon",
@@ -1087,7 +1087,7 @@ var buildings = {
             "type": "Feature",
             "properties": {
                 "name": "Tackie Building",
-                "picture": "\\DCIM\\"
+                "picture": "/DCIM/"
             },
             "geometry": {
                 "type": "MultiPolygon",
@@ -1115,7 +1115,7 @@ var buildings = {
             "type": "Feature",
             "properties": {
                 "name": null,
-                "picture": "\\DCIM\\"
+                "picture": "/DCIM/"
             },
             "geometry": {
                 "type": "MultiPolygon",
@@ -1137,7 +1137,7 @@ var buildings = {
             "type": "Feature",
             "properties": {
                 "name": null,
-                "picture": "\\DCIM\\"
+                "picture": "/DCIM/"
             },
             "geometry": {
                 "type": "MultiPolygon",
@@ -1162,7 +1162,7 @@ var buildings = {
             "type": "Feature",
             "properties": {
                 "name": "Whitaker Building",
-                "picture": "\\DCIM\\"
+                "picture": "/DCIM/"
             },
             "geometry": {
                 "type": "MultiPolygon",
@@ -1185,7 +1185,7 @@ var buildings = {
             "type": "Feature",
             "properties": {
                 "name": "Agric building",
-                "picture": "\\DCIM\\"
+                "picture": "/DCIM/"
             },
             "geometry": {
                 "type": "MultiPolygon",
@@ -1214,7 +1214,7 @@ var buildings = {
             "type": "Feature",
             "properties": {
                 "name": "A-Block",
-                "picture": "\\DCIM\\game_of_thrones_season_8_2019_jon_snow___kit_harington-wallpaper-1920x1080.jpg"
+                "picture": "/DCIM/game_of_thrones_season_8_2019_jon_snow___kit_harington-wallpaper-1920x1080.jpg"
             },
             "geometry": {
                 "type": "MultiPolygon",
@@ -1237,7 +1237,7 @@ var buildings = {
             "type": "Feature",
             "properties": {
                 "name": "Ebenezer Acquaye Building",
-                "picture": "\\DCIM\\"
+                "picture": "/DCIM/"
             },
             "geometry": {
                 "type": "MultiPolygon",
@@ -1258,7 +1258,7 @@ var buildings = {
             "type": "Feature",
             "properties": {
                 "name": null,
-                "picture": "\\DCIM\\"
+                "picture": "/DCIM/"
             },
             "geometry": {
                 "type": "MultiPolygon",
@@ -1285,7 +1285,7 @@ var buildings = {
             "type": "Feature",
             "properties": {
                 "name": null,
-                "picture": "\\DCIM\\"
+                "picture": "/DCIM/"
             },
             "geometry": {
                 "type": "MultiPolygon",
@@ -1316,7 +1316,7 @@ var buildings = {
             "type": "Feature",
             "properties": {
                 "name": "Trevallion Block",
-                "picture": "\\DCIM\\"
+                "picture": "/DCIM/"
             },
             "geometry": {
                 "type": "MultiPolygon",
@@ -1341,7 +1341,7 @@ var buildings = {
             "type": "Feature",
             "properties": {
                 "name": "F.A. Kuffour Building",
-                "picture": "\\DCIM\\"
+                "picture": "/DCIM/"
             },
             "geometry": {
                 "type": "MultiPolygon",
@@ -1375,7 +1375,7 @@ var buildings = {
             "type": "Feature",
             "properties": {
                 "name": null,
-                "picture": "\\DCIM\\"
+                "picture": "/DCIM/"
             },
             "geometry": {
                 "type": "MultiPolygon",
@@ -1396,7 +1396,7 @@ var buildings = {
             "type": "Feature",
             "properties": {
                 "name": "Levine Building",
-                "picture": "\\DCIM\\"
+                "picture": "/DCIM/"
             },
             "geometry": {
                 "type": "MultiPolygon",
@@ -1417,7 +1417,7 @@ var buildings = {
             "type": "Feature",
             "properties": {
                 "name": "Kwami Building",
-                "picture": "\\DCIM\\"
+                "picture": "/DCIM/"
             },
             "geometry": {
                 "type": "MultiPolygon",
@@ -1438,7 +1438,7 @@ var buildings = {
             "type": "Feature",
             "properties": {
                 "name": "Akuafo building",
-                "picture": "\\DCIM\\"
+                "picture": "/DCIM/"
             },
             "geometry": {
                 "type": "MultiPolygon",
@@ -1462,7 +1462,7 @@ var buildings = {
             "type": "Feature",
             "properties": {
                 "name": null,
-                "picture": "\\DCIM\\"
+                "picture": "/DCIM/"
             },
             "geometry": {
                 "type": "MultiPolygon",
@@ -1483,7 +1483,7 @@ var buildings = {
             "type": "Feature",
             "properties": {
                 "name": "Animal Farm",
-                "picture": "\\DCIM\\"
+                "picture": "/DCIM/"
             },
             "geometry": {
                 "type": "MultiPolygon",
@@ -1504,7 +1504,7 @@ var buildings = {
             "type": "Feature",
             "properties": {
                 "name": null,
-                "picture": "\\DCIM\\"
+                "picture": "/DCIM/"
             },
             "geometry": {
                 "type": "MultiPolygon",
@@ -1535,7 +1535,7 @@ var buildings = {
             "type": "Feature",
             "properties": {
                 "name": "Ernestine Addy Disability Centre",
-                "picture": "\\DCIM\\"
+                "picture": "/DCIM/"
             },
             "geometry": {
                 "type": "MultiPolygon",
@@ -1575,7 +1575,7 @@ var buildings = {
             "type": "Feature",
             "properties": {
                 "name": "Energy Annex",
-                "picture": "\\DCIM\\"
+                "picture": "/DCIM/"
             },
             "geometry": {
                 "type": "MultiPolygon",
@@ -1596,7 +1596,7 @@ var buildings = {
             "type": "Feature",
             "properties": {
                 "name": null,
-                "picture": "\\DCIM\\"
+                "picture": "/DCIM/"
             },
             "geometry": {
                 "type": "MultiPolygon",
@@ -1617,7 +1617,7 @@ var buildings = {
             "type": "Feature",
             "properties": {
                 "name": null,
-                "picture": "\\DCIM\\"
+                "picture": "/DCIM/"
             },
             "geometry": {
                 "type": "MultiPolygon",
@@ -1638,7 +1638,7 @@ var buildings = {
             "type": "Feature",
             "properties": {
                 "name": "Architecture Building",
-                "picture": "\\DCIM\\"
+                "picture": "/DCIM/"
             },
             "geometry": {
                 "type": "MultiPolygon",
@@ -1659,7 +1659,7 @@ var buildings = {
             "type": "Feature",
             "properties": {
                 "name": "N Block",
-                "picture": "\\DCIM\\jon_snow_game_of_thrones_season_6-wallpaper-1920x1080.jpg"
+                "picture": "/DCIM/jon_snow_game_of_thrones_season_6-wallpaper-1920x1080.jpg"
             },
             "geometry": {
                 "type": "MultiPolygon",
@@ -1688,7 +1688,7 @@ var buildings = {
             "type": "Feature",
             "properties": {
                 "name": "Department of physical sciences",
-                "picture": "\\DCIM\\"
+                "picture": "/DCIM/"
             },
             "geometry": {
                 "type": "MultiPolygon",
@@ -1709,7 +1709,7 @@ var buildings = {
             "type": "Feature",
             "properties": {
                 "name": null,
-                "picture": "\\DCIM\\"
+                "picture": "/DCIM/"
             },
             "geometry": {
                 "type": "MultiPolygon",
@@ -1737,7 +1737,7 @@ var buildings = {
             "type": "Feature",
             "properties": {
                 "name": null,
-                "picture": "\\DCIM\\"
+                "picture": "/DCIM/"
             },
             "geometry": {
                 "type": "MultiPolygon",
@@ -1766,7 +1766,7 @@ var buildings = {
             "type": "Feature",
             "properties": {
                 "name": null,
-                "picture": "\\DCIM\\"
+                "picture": "/DCIM/"
             },
             "geometry": {
                 "type": "MultiPolygon",
@@ -1789,7 +1789,7 @@ var buildings = {
             "type": "Feature",
             "properties": {
                 "name": null,
-                "picture": "\\DCIM\\"
+                "picture": "/DCIM/"
             },
             "geometry": {
                 "type": "MultiPolygon",
@@ -1810,7 +1810,7 @@ var buildings = {
             "type": "Feature",
             "properties": {
                 "name": null,
-                "picture": "\\DCIM\\"
+                "picture": "/DCIM/"
             },
             "geometry": {
                 "type": "MultiPolygon",
@@ -1831,7 +1831,7 @@ var buildings = {
             "type": "Feature",
             "properties": {
                 "name": null,
-                "picture": "\\DCIM\\"
+                "picture": "/DCIM/"
             },
             "geometry": {
                 "type": "MultiPolygon",
@@ -1852,7 +1852,7 @@ var buildings = {
             "type": "Feature",
             "properties": {
                 "name": "Ablor Building",
-                "picture": "\\DCIM\\"
+                "picture": "/DCIM/"
             },
             "geometry": {
                 "type": "MultiPolygon",
@@ -1873,7 +1873,7 @@ var buildings = {
             "type": "Feature",
             "properties": {
                 "name": null,
-                "picture": "\\DCIM\\"
+                "picture": "/DCIM/"
             },
             "geometry": {
                 "type": "MultiPolygon",
@@ -1894,7 +1894,7 @@ var buildings = {
             "type": "Feature",
             "properties": {
                 "name": null,
-                "picture": "\\DCIM\\"
+                "picture": "/DCIM/"
             },
             "geometry": {
                 "type": "MultiPolygon",
@@ -1919,7 +1919,7 @@ var buildings = {
             "type": "Feature",
             "properties": {
                 "name": "Agric building",
-                "picture": "\\DCIM\\"
+                "picture": "/DCIM/"
             },
             "geometry": {
                 "type": "MultiPolygon",
@@ -1940,7 +1940,7 @@ var buildings = {
             "type": "Feature",
             "properties": {
                 "name": "AGRA Building",
-                "picture": "\\DCIM\\"
+                "picture": "/DCIM/"
             },
             "geometry": {
                 "type": "MultiPolygon",
@@ -1965,7 +1965,7 @@ var buildings = {
             "type": "Feature",
             "properties": {
                 "name": null,
-                "picture": "\\DCIM\\"
+                "picture": "/DCIM/"
             },
             "geometry": {
                 "type": "MultiPolygon",
@@ -1986,7 +1986,7 @@ var buildings = {
             "type": "Feature",
             "properties": {
                 "name": "Evans Anfom Auditorium",
-                "picture": "\\DCIM\\"
+                "picture": "/DCIM/"
             },
             "geometry": {
                 "type": "MultiPolygon",
@@ -2022,7 +2022,7 @@ var buildings = {
             "type": "Feature",
             "properties": {
                 "name": null,
-                "picture": "\\DCIM\\"
+                "picture": "/DCIM/"
             },
             "geometry": {
                 "type": "MultiPolygon",
@@ -2051,7 +2051,7 @@ var buildings = {
             "type": "Feature",
             "properties": {
                 "name": null,
-                "picture": "\\DCIM\\"
+                "picture": "/DCIM/"
             },
             "geometry": {
                 "type": "MultiPolygon",
@@ -2072,7 +2072,7 @@ var buildings = {
             "type": "Feature",
             "properties": {
                 "name": "Agric building",
-                "picture": "\\DCIM\\"
+                "picture": "/DCIM/"
             },
             "geometry": {
                 "type": "MultiPolygon",
@@ -2093,7 +2093,7 @@ var buildings = {
             "type": "Feature",
             "properties": {
                 "name": null,
-                "picture": "\\DCIM\\"
+                "picture": "/DCIM/"
             },
             "geometry": {
                 "type": "MultiPolygon",
@@ -2118,7 +2118,7 @@ var buildings = {
             "type": "Feature",
             "properties": {
                 "name": null,
-                "picture": "\\DCIM\\"
+                "picture": "/DCIM/"
             },
             "geometry": {
                 "type": "MultiPolygon",
@@ -2146,7 +2146,7 @@ var buildings = {
             "type": "Feature",
             "properties": {
                 "name": "E.O. Asare Auditorium",
-                "picture": "\\DCIM\\"
+                "picture": "/DCIM/"
             },
             "geometry": {
                 "type": "MultiPolygon",
@@ -2175,7 +2175,7 @@ var buildings = {
             "type": "Feature",
             "properties": {
                 "name": null,
-                "picture": "\\DCIM\\"
+                "picture": "/DCIM/"
             },
             "geometry": {
                 "type": "MultiPolygon",
@@ -2196,7 +2196,7 @@ var buildings = {
             "type": "Feature",
             "properties": {
                 "name": null,
-                "picture": "\\DCIM\\"
+                "picture": "/DCIM/"
             },
             "geometry": {
                 "type": "MultiPolygon",
@@ -2219,7 +2219,7 @@ var buildings = {
             "type": "Feature",
             "properties": {
                 "name": null,
-                "picture": "\\DCIM\\"
+                "picture": "/DCIM/"
             },
             "geometry": {
                 "type": "MultiPolygon",
@@ -2240,7 +2240,7 @@ var buildings = {
             "type": "Feature",
             "properties": {
                 "name": null,
-                "picture": "\\DCIM\\"
+                "picture": "/DCIM/"
             },
             "geometry": {
                 "type": "MultiPolygon",
@@ -2261,7 +2261,7 @@ var buildings = {
             "type": "Feature",
             "properties": {
                 "name": null,
-                "picture": "\\DCIM\\"
+                "picture": "/DCIM/"
             },
             "geometry": {
                 "type": "MultiPolygon",
@@ -2282,7 +2282,7 @@ var buildings = {
             "type": "Feature",
             "properties": {
                 "name": "J.K. Siaw Adjapong Building",
-                "picture": "\\DCIM\\"
+                "picture": "/DCIM/"
             },
             "geometry": {
                 "type": "MultiPolygon",
@@ -2311,7 +2311,7 @@ var buildings = {
             "type": "Feature",
             "properties": {
                 "name": "Adarkwa Building",
-                "picture": "\\DCIM\\"
+                "picture": "/DCIM/"
             },
             "geometry": {
                 "type": "MultiPolygon",
@@ -2358,7 +2358,7 @@ var buildings = {
             "type": "Feature",
             "properties": {
                 "name": null,
-                "picture": "\\DCIM\\"
+                "picture": "/DCIM/"
             },
             "geometry": {
                 "type": "MultiPolygon",
@@ -2383,7 +2383,7 @@ var buildings = {
             "type": "Feature",
             "properties": {
                 "name": "Akuafo Building",
-                "picture": "\\DCIM\\"
+                "picture": "/DCIM/"
             },
             "geometry": {
                 "type": "MultiPolygon",
@@ -2418,7 +2418,7 @@ var buildings = {
             "type": "Feature",
             "properties": {
                 "name": "New Pharmacy Building",
-                "picture": "\\DCIM\\"
+                "picture": "/DCIM/"
             },
             "geometry": {
                 "type": "MultiPolygon",
@@ -2451,7 +2451,7 @@ var buildings = {
             "type": "Feature",
             "properties": {
                 "name": null,
-                "picture": "\\DCIM\\"
+                "picture": "/DCIM/"
             },
             "geometry": {
                 "type": "MultiPolygon",
@@ -2472,7 +2472,7 @@ var buildings = {
             "type": "Feature",
             "properties": {
                 "name": null,
-                "picture": "\\DCIM\\"
+                "picture": "/DCIM/"
             },
             "geometry": {
                 "type": "MultiPolygon",
@@ -2498,7 +2498,7 @@ var buildings = {
             "type": "Feature",
             "properties": {
                 "name": null,
-                "picture": "\\DCIM\\"
+                "picture": "/DCIM/"
             },
             "geometry": {
                 "type": "MultiPolygon",
@@ -2519,7 +2519,7 @@ var buildings = {
             "type": "Feature",
             "properties": {
                 "name": "Wascal Building",
-                "picture": "\\DCIM\\"
+                "picture": "/DCIM/"
             },
             "geometry": {
                 "type": "MultiPolygon",
@@ -2548,7 +2548,7 @@ var buildings = {
             "type": "Feature",
             "properties": {
                 "name": null,
-                "picture": "\\DCIM\\"
+                "picture": "/DCIM/"
             },
             "geometry": {
                 "type": "MultiPolygon",
@@ -2573,7 +2573,7 @@ var buildings = {
             "type": "Feature",
             "properties": {
                 "name": "CCB Bush Canteen",
-                "picture": "\\DCIM\\"
+                "picture": "/DCIM/"
             },
             "geometry": {
                 "type": "MultiPolygon",
@@ -2600,7 +2600,7 @@ var buildings = {
             "type": "Feature",
             "properties": {
                 "name": null,
-                "picture": "\\DCIM\\"
+                "picture": "/DCIM/"
             },
             "geometry": {
                 "type": "MultiPolygon",
@@ -2621,7 +2621,7 @@ var buildings = {
             "type": "Feature",
             "properties": {
                 "name": null,
-                "picture": "\\DCIM\\"
+                "picture": "/DCIM/"
             },
             "geometry": {
                 "type": "MultiPolygon",
@@ -2642,7 +2642,7 @@ var buildings = {
             "type": "Feature",
             "properties": {
                 "name": "Saarah Mensah Auditorium",
-                "picture": "\\DCIM\\"
+                "picture": "/DCIM/"
             },
             "geometry": {
                 "type": "MultiPolygon",
@@ -2667,7 +2667,7 @@ var buildings = {
             "type": "Feature",
             "properties": {
                 "name": null,
-                "picture": "\\DCIM\\"
+                "picture": "/DCIM/"
             },
             "geometry": {
                 "type": "MultiPolygon",
@@ -2692,7 +2692,7 @@ var buildings = {
             "type": "Feature",
             "properties": {
                 "name": null,
-                "picture": "\\DCIM\\"
+                "picture": "/DCIM/"
             },
             "geometry": {
                 "type": "MultiPolygon",
@@ -2756,7 +2756,7 @@ var buildings = {
             "type": "Feature",
             "properties": {
                 "name": null,
-                "picture": "\\DCIM\\game_of_thrones_15-wallpaper-1920x1080.jpg"
+                "picture": "/DCIM/game_of_thrones_15-wallpaper-1920x1080.jpg"
             },
             "geometry": {
                 "type": "MultiPolygon",
@@ -2787,7 +2787,7 @@ var buildings = {
             "type": "Feature",
             "properties": {
                 "name": null,
-                "picture": "\\DCIM\\"
+                "picture": "/DCIM/"
             },
             "geometry": {
                 "type": "MultiPolygon",
@@ -2808,7 +2808,7 @@ var buildings = {
             "type": "Feature",
             "properties": {
                 "name": null,
-                "picture": "\\DCIM\\"
+                "picture": "/DCIM/"
             },
             "geometry": {
                 "type": "MultiPolygon",
@@ -2829,7 +2829,7 @@ var buildings = {
             "type": "Feature",
             "properties": {
                 "name": null,
-                "picture": "\\DCIM\\"
+                "picture": "/DCIM/"
             },
             "geometry": {
                 "type": "MultiPolygon",
@@ -2850,7 +2850,7 @@ var buildings = {
             "type": "Feature",
             "properties": {
                 "name": null,
-                "picture": "\\DCIM\\"
+                "picture": "/DCIM/"
             },
             "geometry": {
                 "type": "MultiPolygon",
@@ -2871,7 +2871,7 @@ var buildings = {
             "type": "Feature",
             "properties": {
                 "name": "Ksb bus stop",
-                "picture": "\\DCIM\\"
+                "picture": "/DCIM/"
             },
             "geometry": {
                 "type": "MultiPolygon",
@@ -2892,7 +2892,7 @@ var buildings = {
             "type": "Feature",
             "properties": {
                 "name": "Market",
-                "picture": "\\DCIM\\"
+                "picture": "/DCIM/"
             },
             "geometry": {
                 "type": "MultiPolygon",
@@ -2913,7 +2913,7 @@ var buildings = {
             "type": "Feature",
             "properties": {
                 "name": null,
-                "picture": "\\DCIM\\"
+                "picture": "/DCIM/"
             },
             "geometry": {
                 "type": "MultiPolygon",
@@ -2934,7 +2934,7 @@ var buildings = {
             "type": "Feature",
             "properties": {
                 "name": null,
-                "picture": "\\DCIM\\"
+                "picture": "/DCIM/"
             },
             "geometry": {
                 "type": "MultiPolygon",
@@ -2957,7 +2957,7 @@ var buildings = {
             "type": "Feature",
             "properties": {
                 "name": null,
-                "picture": "\\DCIM\\"
+                "picture": "/DCIM/"
             },
             "geometry": {
                 "type": "MultiPolygon",
@@ -2978,7 +2978,7 @@ var buildings = {
             "type": "Feature",
             "properties": {
                 "name": null,
-                "picture": "\\DCIM\\"
+                "picture": "/DCIM/"
             },
             "geometry": {
                 "type": "MultiPolygon",
@@ -2999,7 +2999,7 @@ var buildings = {
             "type": "Feature",
             "properties": {
                 "name": null,
-                "picture": "\\DCIM\\"
+                "picture": "/DCIM/"
             },
             "geometry": {
                 "type": "MultiPolygon",
@@ -3024,7 +3024,7 @@ var buildings = {
             "type": "Feature",
             "properties": {
                 "name": null,
-                "picture": "\\DCIM\\"
+                "picture": "/DCIM/"
             },
             "geometry": {
                 "type": "MultiPolygon",
@@ -3045,7 +3045,7 @@ var buildings = {
             "type": "Feature",
             "properties": {
                 "name": null,
-                "picture": "\\DCIM\\"
+                "picture": "/DCIM/"
             },
             "geometry": {
                 "type": "MultiPolygon",
@@ -3066,7 +3066,7 @@ var buildings = {
             "type": "Feature",
             "properties": {
                 "name": null,
-                "picture": "\\DCIM\\"
+                "picture": "/DCIM/"
             },
             "geometry": {
                 "type": "MultiPolygon",
@@ -3087,7 +3087,7 @@ var buildings = {
             "type": "Feature",
             "properties": {
                 "name": null,
-                "picture": "\\DCIM\\"
+                "picture": "/DCIM/"
             },
             "geometry": {
                 "type": "MultiPolygon",
@@ -3108,7 +3108,7 @@ var buildings = {
             "type": "Feature",
             "properties": {
                 "name": "Pentecost bus stop",
-                "picture": "\\DCIM\\"
+                "picture": "/DCIM/"
             },
             "geometry": {
                 "type": "MultiPolygon",
@@ -3129,7 +3129,7 @@ var buildings = {
             "type": "Feature",
             "properties": {
                 "name": null,
-                "picture": "\\DCIM\\"
+                "picture": "/DCIM/"
             },
             "geometry": {
                 "type": "MultiPolygon",
@@ -3150,7 +3150,7 @@ var buildings = {
             "type": "Feature",
             "properties": {
                 "name": "Mortuary",
-                "picture": "\\DCIM\\"
+                "picture": "/DCIM/"
             },
             "geometry": {
                 "type": "MultiPolygon",
@@ -3175,7 +3175,7 @@ var buildings = {
             "type": "Feature",
             "properties": {
                 "name": null,
-                "picture": "\\DCIM\\"
+                "picture": "/DCIM/"
             },
             "geometry": {
                 "type": "MultiPolygon",
@@ -3196,7 +3196,7 @@ var buildings = {
             "type": "Feature",
             "properties": {
                 "name": null,
-                "picture": "\\DCIM\\"
+                "picture": "/DCIM/"
             },
             "geometry": {
                 "type": "MultiPolygon",
@@ -3227,7 +3227,7 @@ var buildings = {
             "type": "Feature",
             "properties": {
                 "name": null,
-                "picture": "\\DCIM\\"
+                "picture": "/DCIM/"
             },
             "geometry": {
                 "type": "MultiPolygon",
@@ -3256,7 +3256,7 @@ var buildings = {
             "type": "Feature",
             "properties": {
                 "name": null,
-                "picture": "\\DCIM\\"
+                "picture": "/DCIM/"
             },
             "geometry": {
                 "type": "MultiPolygon",
@@ -3283,7 +3283,7 @@ var buildings = {
             "type": "Feature",
             "properties": {
                 "name": null,
-                "picture": "\\DCIM\\"
+                "picture": "/DCIM/"
             },
             "geometry": {
                 "type": "MultiPolygon",
@@ -3310,7 +3310,7 @@ var buildings = {
             "type": "Feature",
             "properties": {
                 "name": null,
-                "picture": "\\DCIM\\"
+                "picture": "/DCIM/"
             },
             "geometry": {
                 "type": "MultiPolygon",
@@ -3337,7 +3337,7 @@ var buildings = {
             "type": "Feature",
             "properties": {
                 "name": null,
-                "picture": "\\DCIM\\"
+                "picture": "/DCIM/"
             },
             "geometry": {
                 "type": "MultiPolygon",
@@ -3364,7 +3364,7 @@ var buildings = {
             "type": "Feature",
             "properties": {
                 "name": "Obesse Jecty Block",
-                "picture": "\\DCIM\\"
+                "picture": "/DCIM/"
             },
             "geometry": {
                 "type": "MultiPolygon",
@@ -3385,7 +3385,7 @@ var buildings = {
             "type": "Feature",
             "properties": {
                 "name": null,
-                "picture": "\\DCIM\\"
+                "picture": "/DCIM/"
             },
             "geometry": {
                 "type": "MultiPolygon",
@@ -3406,7 +3406,7 @@ var buildings = {
             "type": "Feature",
             "properties": {
                 "name": null,
-                "picture": "\\DCIM\\"
+                "picture": "/DCIM/"
             },
             "geometry": {
                 "type": "MultiPolygon",
@@ -3427,7 +3427,7 @@ var buildings = {
             "type": "Feature",
             "properties": {
                 "name": null,
-                "picture": "\\DCIM\\"
+                "picture": "/DCIM/"
             },
             "geometry": {
                 "type": "MultiPolygon",
@@ -3448,7 +3448,7 @@ var buildings = {
             "type": "Feature",
             "properties": {
                 "name": null,
-                "picture": "\\DCIM\\"
+                "picture": "/DCIM/"
             },
             "geometry": {
                 "type": "MultiPolygon",
@@ -3469,7 +3469,7 @@ var buildings = {
             "type": "Feature",
             "properties": {
                 "name": null,
-                "picture": "\\DCIM\\"
+                "picture": "/DCIM/"
             },
             "geometry": {
                 "type": "MultiPolygon",
@@ -3490,7 +3490,7 @@ var buildings = {
             "type": "Feature",
             "properties": {
                 "name": null,
-                "picture": "\\DCIM\\"
+                "picture": "/DCIM/"
             },
             "geometry": {
                 "type": "MultiPolygon",
@@ -3511,7 +3511,7 @@ var buildings = {
             "type": "Feature",
             "properties": {
                 "name": null,
-                "picture": "\\DCIM\\"
+                "picture": "/DCIM/"
             },
             "geometry": {
                 "type": "MultiPolygon",
@@ -3532,7 +3532,7 @@ var buildings = {
             "type": "Feature",
             "properties": {
                 "name": null,
-                "picture": "\\DCIM\\"
+                "picture": "/DCIM/"
             },
             "geometry": {
                 "type": "MultiPolygon",
@@ -3553,7 +3553,7 @@ var buildings = {
             "type": "Feature",
             "properties": {
                 "name": null,
-                "picture": "\\DCIM\\"
+                "picture": "/DCIM/"
             },
             "geometry": {
                 "type": "MultiPolygon",
@@ -3574,7 +3574,7 @@ var buildings = {
             "type": "Feature",
             "properties": {
                 "name": null,
-                "picture": "\\DCIM\\"
+                "picture": "/DCIM/"
             },
             "geometry": {
                 "type": "MultiPolygon",
@@ -3595,7 +3595,7 @@ var buildings = {
             "type": "Feature",
             "properties": {
                 "name": null,
-                "picture": "\\DCIM\\"
+                "picture": "/DCIM/"
             },
             "geometry": {
                 "type": "MultiPolygon",
@@ -3616,7 +3616,7 @@ var buildings = {
             "type": "Feature",
             "properties": {
                 "name": "KNUST Engineering Education Project",
-                "picture": "\\DCIM\\"
+                "picture": "/DCIM/"
             },
             "geometry": {
                 "type": "MultiPolygon",
@@ -3653,7 +3653,7 @@ var buildings = {
             "type": "Feature",
             "properties": {
                 "name": null,
-                "picture": "\\DCIM\\"
+                "picture": "/DCIM/"
             },
             "geometry": {
                 "type": "MultiPolygon",
@@ -3674,7 +3674,7 @@ var buildings = {
             "type": "Feature",
             "properties": {
                 "name": null,
-                "picture": "\\DCIM\\"
+                "picture": "/DCIM/"
             },
             "geometry": {
                 "type": "MultiPolygon",
@@ -3695,7 +3695,7 @@ var buildings = {
             "type": "Feature",
             "properties": {
                 "name": null,
-                "picture": "\\DCIM\\"
+                "picture": "/DCIM/"
             },
             "geometry": {
                 "type": "MultiPolygon",
@@ -3716,7 +3716,7 @@ var buildings = {
             "type": "Feature",
             "properties": {
                 "name": null,
-                "picture": "\\DCIM\\"
+                "picture": "/DCIM/"
             },
             "geometry": {
                 "type": "MultiPolygon",
@@ -3737,7 +3737,7 @@ var buildings = {
             "type": "Feature",
             "properties": {
                 "name": null,
-                "picture": "\\DCIM\\"
+                "picture": "/DCIM/"
             },
             "geometry": {
                 "type": "MultiPolygon",
@@ -3758,7 +3758,7 @@ var buildings = {
             "type": "Feature",
             "properties": {
                 "name": null,
-                "picture": "\\DCIM\\"
+                "picture": "/DCIM/"
             },
             "geometry": {
                 "type": "MultiPolygon",
@@ -3779,7 +3779,7 @@ var buildings = {
             "type": "Feature",
             "properties": {
                 "name": null,
-                "picture": "\\DCIM\\"
+                "picture": "/DCIM/"
             },
             "geometry": {
                 "type": "MultiPolygon",
@@ -3800,7 +3800,7 @@ var buildings = {
             "type": "Feature",
             "properties": {
                 "name": null,
-                "picture": "\\DCIM\\"
+                "picture": "/DCIM/"
             },
             "geometry": {
                 "type": "MultiPolygon",
@@ -3821,7 +3821,7 @@ var buildings = {
             "type": "Feature",
             "properties": {
                 "name": null,
-                "picture": "\\DCIM\\"
+                "picture": "/DCIM/"
             },
             "geometry": {
                 "type": "MultiPolygon",
@@ -3842,7 +3842,7 @@ var buildings = {
             "type": "Feature",
             "properties": {
                 "name": "B-Laboratory For Integrated Bio-Rural Energy Systems (IBRES)",
-                "picture": "\\DCIM\\"
+                "picture": "/DCIM/"
             },
             "geometry": {
                 "type": "MultiPolygon",
@@ -3863,7 +3863,7 @@ var buildings = {
             "type": "Feature",
             "properties": {
                 "name": "Coke stand",
-                "picture": "\\DCIM\\"
+                "picture": "/DCIM/"
             },
             "geometry": {
                 "type": "MultiPolygon",
@@ -3884,7 +3884,7 @@ var buildings = {
             "type": "Feature",
             "properties": {
                 "name": null,
-                "picture": "\\DCIM\\"
+                "picture": "/DCIM/"
             },
             "geometry": {
                 "type": "MultiPolygon",
@@ -3905,7 +3905,7 @@ var buildings = {
             "type": "Feature",
             "properties": {
                 "name": null,
-                "picture": "\\DCIM\\"
+                "picture": "/DCIM/"
             },
             "geometry": {
                 "type": "MultiPolygon",
@@ -3926,7 +3926,7 @@ var buildings = {
             "type": "Feature",
             "properties": {
                 "name": null,
-                "picture": "\\DCIM\\"
+                "picture": "/DCIM/"
             },
             "geometry": {
                 "type": "MultiPolygon",
@@ -3947,7 +3947,7 @@ var buildings = {
             "type": "Feature",
             "properties": {
                 "name": null,
-                "picture": "\\DCIM\\"
+                "picture": "/DCIM/"
             },
             "geometry": {
                 "type": "MultiPolygon",
@@ -3968,7 +3968,7 @@ var buildings = {
             "type": "Feature",
             "properties": {
                 "name": null,
-                "picture": "\\DCIM\\"
+                "picture": "/DCIM/"
             },
             "geometry": {
                 "type": "MultiPolygon",
@@ -3989,7 +3989,7 @@ var buildings = {
             "type": "Feature",
             "properties": {
                 "name": null,
-                "picture": "\\DCIM\\"
+                "picture": "/DCIM/"
             },
             "geometry": {
                 "type": "MultiPolygon",
@@ -4010,7 +4010,7 @@ var buildings = {
             "type": "Feature",
             "properties": {
                 "name": "Power rangers headquarters",
-                "picture": "\\DCIM\\game_of_thrones_poster-wallpaper-1920x1080.jpg"
+                "picture": "/DCIM/game_of_thrones_poster-wallpaper-1920x1080.jpg"
             },
             "geometry": {
                 "type": "MultiPolygon",
@@ -4069,7 +4069,7 @@ var buildings = {
             "type": "Feature",
             "properties": {
                 "name": null,
-                "picture": "\\DCIM\\"
+                "picture": "/DCIM/"
             },
             "geometry": {
                 "type": "MultiPolygon",
@@ -4090,7 +4090,7 @@ var buildings = {
             "type": "Feature",
             "properties": {
                 "name": "Biotechnology laboratory",
-                "picture": "\\DCIM\\"
+                "picture": "/DCIM/"
             },
             "geometry": {
                 "type": "MultiPolygon",
@@ -4111,7 +4111,7 @@ var buildings = {
             "type": "Feature",
             "properties": {
                 "name": null,
-                "picture": "\\DCIM\\"
+                "picture": "/DCIM/"
             },
             "geometry": {
                 "type": "MultiPolygon",
@@ -4132,7 +4132,7 @@ var buildings = {
             "type": "Feature",
             "properties": {
                 "name": null,
-                "picture": "\\DCIM\\"
+                "picture": "/DCIM/"
             },
             "geometry": {
                 "type": "MultiPolygon",
@@ -4153,7 +4153,7 @@ var buildings = {
             "type": "Feature",
             "properties": {
                 "name": "Icy Cup",
-                "picture": "\\DCIM\\"
+                "picture": "/DCIM/"
             },
             "geometry": {
                 "type": "MultiPolygon",
@@ -4174,7 +4174,7 @@ var buildings = {
             "type": "Feature",
             "properties": {
                 "name": "CCB bus stop",
-                "picture": "\\DCIM\\"
+                "picture": "/DCIM/"
             },
             "geometry": {
                 "type": "MultiPolygon",
@@ -4195,7 +4195,7 @@ var buildings = {
             "type": "Feature",
             "properties": {
                 "name": null,
-                "picture": "\\DCIM\\"
+                "picture": "/DCIM/"
             },
             "geometry": {
                 "type": "MultiPolygon",
@@ -4216,7 +4216,7 @@ var buildings = {
             "type": "Feature",
             "properties": {
                 "name": null,
-                "picture": "\\DCIM\\"
+                "picture": "/DCIM/"
             },
             "geometry": {
                 "type": "MultiPolygon",
@@ -4237,7 +4237,7 @@ var buildings = {
             "type": "Feature",
             "properties": {
                 "name": null,
-                "picture": "\\DCIM\\"
+                "picture": "/DCIM/"
             },
             "geometry": {
                 "type": "MultiPolygon",
@@ -4258,7 +4258,7 @@ var buildings = {
             "type": "Feature",
             "properties": {
                 "name": null,
-                "picture": "\\DCIM\\"
+                "picture": "/DCIM/"
             },
             "geometry": {
                 "type": "MultiPolygon",
@@ -4279,7 +4279,7 @@ var buildings = {
             "type": "Feature",
             "properties": {
                 "name": null,
-                "picture": "\\DCIM\\"
+                "picture": "/DCIM/"
             },
             "geometry": {
                 "type": "MultiPolygon",
@@ -4300,7 +4300,7 @@ var buildings = {
             "type": "Feature",
             "properties": {
                 "name": null,
-                "picture": "\\DCIM\\"
+                "picture": "/DCIM/"
             },
             "geometry": {
                 "type": "MultiPolygon",
@@ -4321,7 +4321,7 @@ var buildings = {
             "type": "Feature",
             "properties": {
                 "name": null,
-                "picture": "\\DCIM\\"
+                "picture": "/DCIM/"
             },
             "geometry": {
                 "type": "MultiPolygon",
@@ -4342,7 +4342,7 @@ var buildings = {
             "type": "Feature",
             "properties": {
                 "name": null,
-                "picture": "\\DCIM\\"
+                "picture": "/DCIM/"
             },
             "geometry": {
                 "type": "MultiPolygon",
@@ -4363,7 +4363,7 @@ var buildings = {
             "type": "Feature",
             "properties": {
                 "name": null,
-                "picture": "\\DCIM\\"
+                "picture": "/DCIM/"
             },
             "geometry": {
                 "type": "MultiPolygon",
@@ -4396,7 +4396,7 @@ var buildings = {
             "type": "Feature",
             "properties": {
                 "name": null,
-                "picture": "\\DCIM\\"
+                "picture": "/DCIM/"
             },
             "geometry": {
                 "type": "MultiPolygon",
@@ -4417,7 +4417,7 @@ var buildings = {
             "type": "Feature",
             "properties": {
                 "name": null,
-                "picture": "\\DCIM\\"
+                "picture": "/DCIM/"
             },
             "geometry": {
                 "type": "MultiPolygon",
@@ -4438,7 +4438,7 @@ var buildings = {
             "type": "Feature",
             "properties": {
                 "name": null,
-                "picture": "\\DCIM\\"
+                "picture": "/DCIM/"
             },
             "geometry": {
                 "type": "MultiPolygon",
@@ -4459,7 +4459,7 @@ var buildings = {
             "type": "Feature",
             "properties": {
                 "name": "Security Office",
-                "picture": "\\DCIM\\"
+                "picture": "/DCIM/"
             },
             "geometry": {
                 "type": "MultiPolygon",
@@ -4480,7 +4480,7 @@ var buildings = {
             "type": "Feature",
             "properties": {
                 "name": "Ayeduase Gate",
-                "picture": "\\DCIM\\"
+                "picture": "/DCIM/"
             },
             "geometry": {
                 "type": "MultiPolygon",
@@ -4507,7 +4507,7 @@ var buildings = {
             "type": "Feature",
             "properties": {
                 "name": "Engineering Study Tent",
-                "picture": "\\DCIM\\"
+                "picture": "/DCIM/"
             },
             "geometry": {
                 "type": "MultiPolygon",
@@ -4528,7 +4528,7 @@ var buildings = {
             "type": "Feature",
             "properties": {
                 "name": "New Block Study Tent",
-                "picture": "\\DCIM\\"
+                "picture": "/DCIM/"
             },
             "geometry": {
                 "type": "MultiPolygon",
@@ -4549,7 +4549,7 @@ var buildings = {
             "type": "Feature",
             "properties": {
                 "name": null,
-                "picture": "\\DCIM\\"
+                "picture": "/DCIM/"
             },
             "geometry": {
                 "type": "MultiPolygon",
@@ -4570,7 +4570,7 @@ var buildings = {
             "type": "Feature",
             "properties": {
                 "name": null,
-                "picture": "\\DCIM\\"
+                "picture": "/DCIM/"
             },
             "geometry": {
                 "type": "MultiPolygon",
@@ -4591,7 +4591,7 @@ var buildings = {
             "type": "Feature",
             "properties": {
                 "name": null,
-                "picture": "\\DCIM\\"
+                "picture": "/DCIM/"
             },
             "geometry": {
                 "type": "MultiPolygon",
@@ -4612,7 +4612,7 @@ var buildings = {
             "type": "Feature",
             "properties": {
                 "name": null,
-                "picture": "\\DCIM\\"
+                "picture": "/DCIM/"
             },
             "geometry": {
                 "type": "MultiPolygon",
@@ -4633,7 +4633,7 @@ var buildings = {
             "type": "Feature",
             "properties": {
                 "name": null,
-                "picture": "\\DCIM\\"
+                "picture": "/DCIM/"
             },
             "geometry": {
                 "type": "MultiPolygon",
@@ -4654,7 +4654,7 @@ var buildings = {
             "type": "Feature",
             "properties": {
                 "name": null,
-                "picture": "\\DCIM\\"
+                "picture": "/DCIM/"
             },
             "geometry": {
                 "type": "MultiPolygon",
@@ -4675,7 +4675,7 @@ var buildings = {
             "type": "Feature",
             "properties": {
                 "name": null,
-                "picture": "\\DCIM\\"
+                "picture": "/DCIM/"
             },
             "geometry": {
                 "type": "MultiPolygon",
@@ -4696,7 +4696,7 @@ var buildings = {
             "type": "Feature",
             "properties": {
                 "name": null,
-                "picture": "\\DCIM\\"
+                "picture": "/DCIM/"
             },
             "geometry": {
                 "type": "MultiPolygon",
@@ -4717,7 +4717,7 @@ var buildings = {
             "type": "Feature",
             "properties": {
                 "name": "Security Room",
-                "picture": "\\DCIM\\"
+                "picture": "/DCIM/"
             },
             "geometry": {
                 "type": "MultiPolygon",
