@@ -149,7 +149,7 @@
         function fetchAndShowShortestPath(initial, end) {
             const data = { initial, end };
 
-            fetch('http://badcid.pythonanywhere.com/find_shortest_path', {
+            fetch('https://badcid.pythonanywhere.com/find_shortest_path', {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify(data)
