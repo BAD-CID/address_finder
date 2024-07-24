@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>REAL PROJECT</title>
+    <!-- Leaflet CSS for maps -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+        integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
+    <!-- Leaflet Control Geocoder CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet-control-geocoder/dist/Control.Geocoder.css" />
+    <!-- Leaflet Search CSS -->
+    <link rel="stylesheet" href="leaflet-search-master/dist/leaflet-search.src.css">
+    <style>
+        body {
+            margin: 0;
+        }
+
+        #map {
+            height: 100vh;
+            width: 100%;
+        }
+
+        .custom-geocoder,
+        .leaflet-control-search {
+            display: flex;
+            align-items: center;
+            padding: 5px;
+            background: white;
+            border-radius: 5px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+        }
+
+        .custom-geocoder input,
+        .leaflet-control-search input {
+            height: 30px;
+            width: 200px;
+            padding: 5px;
+            margin-right: 5px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        .custom-geocoder button,
+        .leaflet-control-search button {
+            height: 30px;
+            padding: 5px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            background: #4CAF50;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="map"></div>
+
+    <!-- Leaflet JS for maps -->
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+        integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+
+    <!-- Load GeoJSON data -->
+    <script src="data/Boundary.js"></script>
+    <script src="data/paths_with_node_ids.js"></script>
+    <script src="data/buildings.js"></script>
+    <!-- Leaflet Control Geocoder JS -->
+    <script src="https://unpkg.com/leaflet-control-geocoder/dist/Control.Geocoder.js"></script>
+    <!-- Leaflet Search JS -->
+    <script src="leaflet-search-master/dist/leaflet-search.src.js"></script>
+    <!-- Leaflet LocateControl CSS and JS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet.locatecontrol/dist/L.Control.Locate.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet.locatecontrol/dist/L.Control.Locate.min.js" charset="utf-8">
+    </script>
+    <!-- Leaflet NavBar CSS and JS -->
+    <link rel="stylesheet" href="Leaflet.NavBar-master/src/Leaflet.NavBar.css">
+    <script src="Leaflet.NavBar-master/src/Leaflet.NavBar.js"></script>
+    <script>
+        // Initialize the map centered at specified coordinates with zoom level 15
+        var map = L.map('map').setView([6.678052, -1.561406], 15);
+
+        // Add OpenStreetMap layer
+        var osm = L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+        }).addTo(map);
+
+
+        // Add locate control to the map
+        var locateControl = L.control.locate({
+            setView: 'always',
+            keepCurrentZoomLevel: true,
+            drawCircle: false,
+            locateOptions: {
+                maxZoom: 15,
+                enableHighAccuracy: true
+            }
+        }).addTo(map);
+
+        // Add navigation bar to the map
+        L.control.navbar({
+            position: "topright"
+        }).addTo(map);
+
+        // Add a watermark/logo to the map
+        L.Control.Watermark = L.Control.extend({
+            onAdd: function (map) {
+                var img = L.DomUtil.create('img');
+                img.src = 'logo.png';
+                img.style.width = '150px';
+                return img;
+            }
+        });
+        L.control.watermark = function (opts) {
+            return new L.Control.Watermark(opts);
+        }
+        L.control.watermark({
+            position: 'bottomleft'
+        }).addTo(map);
+
+        // Add Google Satellite and Hybrid layers
+        var googleSat = L.tileLayer('http://{s}.google.com/vt?lyrs=s&x={x}&y={y}&z={z}', {
+            maxZoom: 20,
+            subdomains: ['mt0', 'mt1', 'mt2', 'mt3']
+        });
+
+        var googleHybrid = L.tileLayer('http://{s}.google.com/vt/lyrs=s,h&x={x}&y={y}&z={z}', {
+            maxZoom: 20,
+            subdomains: ['mt0', 'mt1', 'mt2', 'mt3']
+        });
+
+        // Add GeoJSON data layers for boundaries and buildings
+        var boundarydata = L.geoJSON(knust, {
+            onEachFeature: function (feature, layer) {
+                layer.bindPopup(feature.properties.name);
+            },
+            style: {
+                fillColor: "none",
+                color: "red"
+            }
+        }).addTo(map);
+
+        var engineeringdata = L.geoJSON(buildings, {
+            onEachFeature: function (feature, layer) {
+                if (feature.properties.picture == '\\DCIM\\') {
+                    layer.bindPopup(`<b>${feature.properties.name}</b>`);
+                } else if (feature.properties.name && feature.properties.picture) {
+                    layer.bindPopup(
+                        `<b>${feature.properties.name}</b><br><img src="${feature.properties.picture}" style="width:300px">`
+                        );
+                }
+            },
+            style: {
+                fillColor: 'pink',
+                fillOpacity: 1,
+                color: "none"
+            }
+        }).addTo(map);
+
+        // Add layer control
+        var baseLayers = {
+            "OpenStreetMap": osm,
+            "Google Satellite": googleSat,
+            "Google Hybrid": googleHybrid,
+        };
+
+        var overlays = {
+            "Buildings": engineeringdata,
+        };
+
+        L.control.layers(baseLayers, overlays, {
+            position: "bottomright"
+        }).addTo(map);
+
+        // Function to calculate the Haversine distance between two points
+        function haversineDistance(coord1, coord2) {
+            const toRad = x => x * Math.PI / 180;
+
+            let [lon1, lat1] = coord1;
+            let [lon2, lat2] = coord2;
+            const R = 6371; // Radius of the Earth in km
+            const dLat = toRad(lat2 - lat1);
+            const dLon = toRad(lon2 - lon1);
+            const a = Math.sin(dLat / 2) * Math.sin(dLat / 2) +
+                Math.cos(toRad(lat1)) * Math.cos(toRad(lat2)) *
+                Math.sin(dLon / 2) * Math.sin(dLon / 2);
+            const c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a));
+            return R * c; // Distance in km
+        }
+
+        // Function to fetch shortest path GeoJSON and add it to map
+        function fetchAndShowShortestPath(initial, end) {
+            const data = {
+                initial,
+                end
+            };
+
+            fetch('https://badcid.pythonanywhere.com/find_shortest_path', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify(data)
+                })
+                .then(response => response.json())
+                .then(shortestPathGeojson => {
+                    if (shortestPathLayer) {
+                        map.removeLayer(shortestPathLayer);
+                    }
+
+                    shortestPathLayer = L.geoJSON(shortestPathGeojson, {
+                        style: {
+                            color: 'blue',
+                            weight: 3,
+                            opacity: 0.8
+                        }
+                    }).addTo(map);
+                })
+                .catch(error => {
+                    console.error('Error fetching shortest path:', error);
+                });
+        }
+
+        // Variables for search and live closest nodes and shortest path layer
+        let searchClosestNode = null;
+        let liveClosestNode = null;
+        var shortestPathLayer = null;
+
+        // Add search control
+        const searchControl = new L.Control.Search({
+            layer: engineeringdata,
+            zoom: 20,
+            propertyName: "name",
+            textPlaceholder: "Search in KNUST..."
+        });
+        map.addControl(searchControl);
+
+        // Event listener for search location found
+        searchControl.on('search:locationfound', function (e) {
+            const {
+                latlng
+            } = e;
+
+            searchControl._input.style.display = 'none';
+            locateControl.stop();
+
+            let searchLocation = [latlng.lng, latlng.lat];
+            let searchClosestDistance = Infinity;
+            // console.log("Search Location Coordinates:", searchLocation);
+
+            paths.features.forEach(feature => {
+                feature.geometry.coordinates.forEach((coord, index) => {
+                    let searchDistance = haversineDistance(searchLocation, coord);
+                    if (searchDistance < searchClosestDistance) {
+                        searchClosestDistance = searchDistance;
+                        searchClosestNode = {
+                            id: feature.properties.node_ids[index],
+                            coordinates: coord
+                        };
+                    }
+                });
+            });
+
+            if (searchClosestNode) {
+                // console.log('Search Closest Node ID:', searchClosestNode.id);
+                // console.log('Search Closest Node Coordinates:', searchClosestNode.coordinates);
+
+                map.setView([latlng.lat, latlng.lng], 18);
+            } else {
+                console.log('No nodes found.');
+            }
+
+            if (shortestPathLayer) {
+                map.removeLayer(shortestPathLayer);
+            }
+        });
+
+        // Event listener for location found
+        map.on('locationfound', function (e) {
+            let liveLocation = [e.longitude, e.latitude];
+            let liveClosestDistance = Infinity;
+            // console.log("Live Location Coordinates:", liveLocation);
+
+            paths.features.forEach(feature => {
+                feature.geometry.coordinates.forEach((coord, index) => {
+                    let liveDistance = haversineDistance(liveLocation, coord);
+                    if (liveDistance < liveClosestDistance) {
+                        liveClosestDistance = liveDistance;
+                        liveClosestNode = {
+                            id: feature.properties.node_ids[index],
+                            coordinates: coord
+                        };
+                    }
+                });
+            });
+
+            if (liveClosestNode) {
+                // console.log('Live Closest Node ID:', liveClosestNode.id);
+                // console.log('Live Closest Node Coordinates:', liveClosestNode.coordinates);
+            } else {
+                console.log('No nodes found.');
+            }
+
+            if (!searchClosestNode) {
+                locateControl.start();
+
+                if (shortestPathLayer) {
+                    map.removeLayer(shortestPathLayer);
+                    shortestPathLayer = null;
+                }
+            } else {
+                const initialNode = liveClosestNode ? liveClosestNode.id : null;
+                const endNode = searchClosestNode.id;
+                if (initialNode && endNode) {
+                    fetchAndShowShortestPath(initialNode, endNode);
+                }
+            }
+        });
+
+        // Error handler for location access denied
+        map.on('locationerror', function (e) {
+            alert(e.message);
+        });
+
+        // Function to check if the device is a mobile device
+        function isMobileDevice() {
+            return (typeof window.orientation !== "undefined") || (navigator.userAgent.indexOf('IEMobile') !== -1);
+        }
+
+        // Function to adjust the zoom level based on screen size
+        function adjustZoomLevel() {
+            if (isMobileDevice() && window.innerWidth < 768) {
+                map.setZoom(13); // Set a smaller zoom level for mobile devices
+            } else {
+                map.setZoom(15); // Set a default zoom level for other devices
+            }
+        }
+
+        // Call the function initially to set the zoom level
+        adjustZoomLevel();
+
+        // Add an event listener to adjust the zoom level when the window is resized
+        window.addEventListener('resize', adjustZoomLevel);
+    </script>
+</body>
+
+</html>
