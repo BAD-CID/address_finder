@@ -135,7 +135,7 @@ var buildings = {
         {
             "type": "Feature",
             "properties": {
-                "name": "Petroleum Building",
+                "name": "Petroleum Building (PB)",
                 "picture": "/DCIM/daenerys_s6-wallpaper-1920x1080.jpg"
             },
             "geometry": {
