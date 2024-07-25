@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="contactstyle.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+</head>
+
+<body>
+    <header>
+        <div class="logo"><a href="index.html">Address Finder</a></div>
+        <nav>
+            <ul>
+                <li><a href="map.html">Map</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="contact-container">
+        <div class="contact-header">
+            <h1>Contact Us</h1>
+        </div>
+        <div class="contact-info">
+            <div>
+                <h2>#BAD C.I.D</h2>
+                <p><i class="fa-solid fa-envelope"></i> Email: dennisantwi064@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i> Phone: +233 554 344</p>
+            </div>
+            <div>
+                <h2>PERSEUS</h2>
+                <p><i class="fa-solid fa-envelope"></i> Email: person2@example.com</p>
+                <p><i class="fa-solid fa-phone"></i> Phone: +0987654321</p>
+            </div>
+        </div>
+        <form class="contact-form" method="POST" action="http://127.0.0.1:5000/send-email">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea rows="5" name="message" placeholder="Your Message" required></textarea>
+            <button type="submit"><i class="fa-solid fa-paper-plane"></i> Send Message</button>
+        </form>
+    </div>
+</body>
+
+</html>

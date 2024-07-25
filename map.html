@@ -147,7 +147,7 @@
                 } else if (feature.properties.name && feature.properties.picture) {
                     layer.bindPopup(
                         `<b>${feature.properties.name}</b><br><img src="${feature.properties.picture}" style="width:300px">`
-                        );
+                    );
                 }
             },
             style: {
@@ -227,12 +227,31 @@
         var shortestPathLayer = null;
 
         // Add search control
-        const searchControl = new L.Control.Search({
+        var searchControl = new L.Control.Search({
             layer: engineeringdata,
             zoom: 20,
             propertyName: "name",
-            textPlaceholder: "Search in KNUST..."
+            textPlaceholder: "Search within KNUST...",
+            initial: false,
+            marker: false
         });
+
+        // searchControl.on('search:locationfound', function (e) {
+        //     e.layer.setStyle({
+        //         fillColor: 'blue',
+        //         color: 'black',
+        //         weight: 3,
+        //         opacity: 1
+        //     });
+        //     if (e.layer._popup) {
+        //         // e.layer.openPopup();
+        //     }
+        // }).on('search:collapsed', function (e) {
+        //     engineeringdata.eachLayer(function (layer) {
+        //         engineeringdata.resetStyle(layer);
+        //     });
+        // });
+
         map.addControl(searchControl);
 
         // Event listener for search location found

@@ -1,0 +1,223 @@
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Roboto:wght@400;500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+}
+
+/* Header styling */
+header {
+    background: #333;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+header .logo {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+header .logo a {
+    color: white;
+    text-decoration: none;
+}
+
+header nav ul {
+    list-style: none;
+    padding-top: 10px;
+    text-align: center;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 1rem;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+header nav ul li a:hover {
+    color: #fb5020;
+}
+
+/* Main content styling */
+main {
+    padding: 5rem 1rem 2rem;
+    margin-top: 70px; /* Adjust based on header height */
+}
+
+.about {
+    max-width: 800px;
+    margin: 0 auto;
+    background: #fff;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.about h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #333;
+}
+
+
+.about-content p {
+    line-height: 1.6;
+    margin-bottom: 1rem;
+}
+
+.team-member {
+    margin: 2rem 0;
+    /* text-align: center; */
+
+}
+
+.team-member img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+    margin-right: 20px;
+    float: left;
+}
+
+.team-member h3 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.25rem;
+    margin-bottom: 0.5rem;
+    color: #333;
+}
+
+.team-member p {
+    text-align: left;
+}
+
+.about-content h2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5rem;
+    margin-top: 2rem;
+    border-bottom: 2px solid #333;
+    padding-bottom: 0.5rem;
+    color: #333;
+}
+
+/* Footer styling */
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    position: relative;
+}
+
+footer #footer-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+footer .social-media {
+    margin: 1rem 0;
+}
+
+footer .social-media a {
+    color: #fff;
+    margin: 0 0.5rem;
+    text-decoration: none;
+    font-size: 1.5rem;
+    transition: color 0.3s;
+}
+
+footer .social-media a:hover {
+    color: #fb5020;
+}
+
+footer .email-info a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Responsive styling */
+@media (min-width: 600px) {
+    header nav ul li {
+        padding: 0;
+    }
+
+    header .logo {
+        font-size: 1.5rem;
+        font-weight: bold;
+        float: left;
+        margin-left: 20px;
+    }
+
+    header nav ul {
+        text-align: right;
+        margin: 10px 10px 0 0;
+    }
+}
+
+@media (max-width: 768px) {
+    header nav ul {
+        padding: 0;
+        text-align: center;
+    }
+
+    header nav ul li {
+        /* display: block; */
+        margin: 0.5rem 0;
+    }
+}
+
+@media (max-width: 480px) {
+    .about h1 {
+        font-size: 1.5rem;
+    }
+
+    .about-content h2 {
+        font-size: 1.25rem;
+    }
+
+    .team-member {
+        float: none;
+        text-align: center;
+    }
+
+    .team-member img {
+        float: none;
+    }
+
+    header nav ul li {
+        /* display: block; */
+        margin: 0.5rem 0;
+        padding-right: 20px;
+    }
+
+    header .logo {
+        margin-left: 0;
+    }
+
+    header nav ul li {
+        margin: 0;
+    }
+
+}
