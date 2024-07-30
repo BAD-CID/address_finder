@@ -13,6 +13,9 @@ edges = distances
 for edge in edges:
     graph.add_edge(*edge)
 
+# Initialize a list to store comments
+comments = []
+
 @app.route('/find_shortest_path', methods=['POST'])
 def find_shortest_path():
     data = request.json
@@ -26,6 +29,26 @@ def find_shortest_path():
     response = jsonify(shortest_path_geojson)
     response.headers.add('Access-Control-Allow-Origin', '*')
     return response
+
+@app.route('/comments', methods=['GET', 'POST'])
+def handle_comments():
+    if request.method == 'GET':
+        response = jsonify(comments)
+        response.headers.add('Access-Control-Allow-Origin', '*')
+        return response
+    elif request.method == 'POST':
+        data = request.json
+        comment = data.get('comment')
+        if comment:
+            comments.append(comment)
+            response = jsonify({'message': 'Comment added successfully'})
+            response.headers.add('Access-Control-Allow-Origin', '*')
+            return response
+        else:
+            response = jsonify({'error': 'Comment is required'})
+            response.status_code = 400
+            response.headers.add('Access-Control-Allow-Origin', '*')
+            return response
 
 if __name__ == '__main__':
     app.run(debug=True)

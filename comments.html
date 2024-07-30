@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comments</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/0f610d5960.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header>
+        <div class="logo"><a href="index.html">Address Finder</a></div>
+        <nav>
+            <ul>
+                <li><a href="map.html">Map</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+                <li><a href="comments.html">Comments</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <!-- Comment Section -->
+        <section class="comments">
+            <h2>Comments</h2>
+            <form id="comment-form">
+                <label for="comment">Leave a Comment:</label>
+                <textarea id="comment" name="comment" rows="4" required></textarea>
+                <button type="submit">Submit</button>
+            </form>
+            <div id="comment-section">
+                <!-- Comments will be displayed here -->
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div id="footer-content">
+            <h3>Contact Us</h3>
+            <div class="social-media">
+                <p class="email-info">Email: <a href="mailto:dennisantwi064@gmail.com">dennisantwi064@gmail.com</a></p>
+                <p class="email-info">Email: <a href="mailto:perseus@gmail.com">perseus@gmail.com</a></p>
+                <a href=""><i class="fa-brands fa-facebook fa-2x"></i></a>
+                <a href=""><i class="fa-brands fa-twitter fa-2x"></i></a>
+                <a href=""><i class="fa-brands fa-instagram fa-2x"></i></a>
+                <a href="http://www.linkedin.com/in/dennis-antwi"><i class="fa-brands fa-linkedin fa-2x"></i></a>
+            </div>
+            <p>&copy; 2024 Web Map Project. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        const apiUrl = 'https://badcid.pythonanywhere.com/comments';  // Update this to match your backend URL
+
+        // Function to load comments from the backend
+        async function loadComments() {
+            const response = await fetch(apiUrl);
+            const comments = await response.json();
+            const commentSection = document.getElementById('comment-section');
+            commentSection.innerHTML = '';
+            comments.forEach(comment => {
+                const newComment = document.createElement('p');
+                newComment.textContent = comment;
+                commentSection.appendChild(newComment);
+            });
+        }
+
+        // Function to add a new comment to the backend
+        async function addComment(comment) {
+            const response = await fetch(apiUrl, {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({ comment })
+            });
+            if (response.ok) {
+                loadComments();  // Reload comments after adding a new one
+            }
+        }
+
+        // Event listener for the comment form submission
+        document.getElementById('comment-form').addEventListener('submit', function (event) {
+            event.preventDefault();
+            const comment = document.getElementById('comment').value;
+            if (comment) {
+                addComment(comment);
+                document.getElementById('comment').value = '';  // Clear the textarea
+            }
+        });
+
+        // Load comments when the page is loaded
+        document.addEventListener('DOMContentLoaded', loadComments);
+    </script>
+</body>
+
+</html>
