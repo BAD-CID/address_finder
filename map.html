@@ -140,7 +140,7 @@
             }
         }).addTo(map);
 
-        var engineeringdata = L.geoJSON(buildings, {
+        var buildings_data = L.geoJSON(buildings, {
             onEachFeature: function (feature, layer) {
                 if (feature.properties.picture == '\\DCIM\\') {
                     layer.bindPopup(`<b>${feature.properties.name}</b>`);
@@ -165,7 +165,7 @@
         };
 
         var overlays = {
-            "Buildings": engineeringdata,
+            "Buildings": buildings_data,
         };
 
         L.control.layers(baseLayers, overlays, {
@@ -228,7 +228,7 @@
 
         // Add search control
         var searchControl = new L.Control.Search({
-            layer: engineeringdata,
+            layer: buildings_data,
             zoom: 20,
             propertyName: "name",
             textPlaceholder: "Search within KNUST...",
@@ -246,8 +246,8 @@
         //         // e.layer.openPopup();
         //     }
         // }).on('search:collapsed', function (e) {
-        //     engineeringdata.eachLayer(function (layer) {
-        //         engineeringdata.resetStyle(layer);
+        //     buildings_data.eachLayer(function (layer) {
+        //         buildings_data.resetStyle(layer);
         //     });
         // });
 
