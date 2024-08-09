@@ -28,7 +28,7 @@ header {
 header .logo {
     font-family: 'Poppins', sans-serif;
     font-size: 1.5rem;
-    font-weight: bold;
+    font-weight: 700;
 }
 
 header .logo a {
@@ -36,15 +36,21 @@ header .logo a {
     text-decoration: none;
 }
 
+header nav {
+    margin-top: 10px;
+}
+
 header nav ul {
+    display: inline-flex;
     list-style: none;
-    padding-top: 10px;
     text-align: center;
+    font-size: small;
 }
 
 header nav ul li {
     display: inline;
     margin: 0 1rem;
+    padding: 0;
 }
 
 header nav ul li a {
@@ -158,6 +164,10 @@ footer .email-info a {
 
 /* Responsive styling */
 @media (min-width: 600px) {
+    header nav{
+        float: right;
+        padding-top: 0;
+    }
     header nav ul li {
         padding: 0;
     }
@@ -171,23 +181,31 @@ footer .email-info a {
 
     header nav ul {
         text-align: right;
-        margin: 10px 10px 0 0;
+        /* margin: 10px 10px 0 0; */
     }
 }
 
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
     header nav ul {
         padding: 0;
         text-align: center;
     }
 
     header nav ul li {
-        /* display: block; */
-        margin: 0.5rem 0;
+        margin: 0 1rem;
     }
-}
+} */
 
 @media (max-width: 480px) {
+    header nav ul li {
+        padding-right: 20px;
+    }
+
+    header nav ul li {
+        display: inline-flex;
+        margin: 0 0.5rem;
+    }
+
     .about h1 {
         font-size: 1.5rem;
     }
@@ -205,18 +223,6 @@ footer .email-info a {
         float: none;
     }
 
-    header nav ul li {
-        /* display: block; */
-        margin: 0.5rem 0;
-        padding-right: 20px;
-    }
-
-    header .logo {
-        margin-left: 0;
-    }
-
-    header nav ul li {
-        margin: 0;
-    }
+    
 
 }

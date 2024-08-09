@@ -42,9 +42,9 @@ header .logo {
 }
 
 header nav ul {
-    list-style: none;
     padding-top: 10px;
-    text-align: center
+    text-align: center;
+    font-size: small;
 }
 
 header nav ul li {

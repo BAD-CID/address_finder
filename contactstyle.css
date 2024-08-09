@@ -154,15 +154,21 @@ a:hover {
         float: none;
         margin: 0;
     }
+
+    header nav{
+        margin-top: 10px;
+        margin-left: 10px;
+    }
     header nav ul {
         padding: 0;
         float: none;
+        font-size: small;
     }
 
     header nav ul li {
         display: inline;
         margin: 0.5rem 0;
-        margin-right: 20px;
+        margin: 0 1rem;
         text-align: center;
     }
 
