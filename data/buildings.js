@@ -136,7 +136,7 @@ var buildings = {
             "type": "Feature",
             "properties": {
                 "name": "Petroleum Building (PB)",
-                "picture": "/DCIM/daenerys_s6-wallpaper-1920x1080.jpg"
+                "picture": "/DCIM/pb.png"
             },
             "geometry": {
                 "type": "MultiPolygon",
@@ -850,7 +850,7 @@ var buildings = {
             "type": "Feature",
             "properties": {
                 "name": "Kumapley Building",
-                "picture": "/DCIM/game_of_thrones_khaleesi-wallpaper-1920x1200.jpg"
+                "picture": "/DCIM/kumapley.png"
             },
             "geometry": {
                 "type": "MultiPolygon",
